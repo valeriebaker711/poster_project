@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+	<head>
+		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script src="js/script.js"></script>
+		<link href="css/reset.css" type="text/css" rel="stylesheet" />
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<form>
+			<br />
+			<label for="words">Enter Poster Text:</label>
+			<input id="words" placeholder="enter text here"/><br />
+			<label for="text_color">Select Poster Text Color:</label>
+			<input id="text_color" type="color"/><br />
+			<label for="font_size">Select Poster Text Size:</label>
+			<input id="font_size" type="range" value="24" min="8" max="72"><br />
+			<label for="bkgdColor">Select Poster Background Color:</label>
+			<input id="bkgdColor" type="color" /><br />
+
+			<!-- add an input so your user can choose a background color for their poster (hint: use id="bkgdColor") -->
+			<label for="submit">Click Submit to Create Poster!</label>
+			<input id="submit" type="submit" /><br /><br />
+			<div id="poster">
+				<p id="poster_text"></p>
+			</div>
+		</form>
+	</body>
+</html>
